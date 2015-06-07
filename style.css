@@ -788,17 +788,17 @@
   width: 0px;
   height: 0px;
   position: absolute;
-  top: -16px;
-  left: -10px;
+  top: -13px;
+  left: -13px;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 46px solid #fe8809;
+  border-top: 40px solid #fe8809;
   border-radius: 50%;
-  -webkit-transform: rotate(108deg);
-     -moz-transform: rotate(108deg);
-      -ms-transform: rotate(108deg);
-       -o-transform: rotate(108deg);
-          transform: rotate(108deg);
+  -webkit-transform: rotate(110deg);
+     -moz-transform: rotate(110deg);
+      -ms-transform: rotate(110deg);
+       -o-transform: rotate(110deg);
+          transform: rotate(110deg);
 }
 
 .ear-right {
