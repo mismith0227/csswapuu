@@ -4,7 +4,7 @@ WordPress の日本公式キャラクター[わぷー](https://ja.wordpress.org/
 WordPress ソフトウェアと同じく [GPL バージョン 2](http://www.gnu.org/licenses/gpl-2.0.html) またはそれ以降の互換ライセンスとなり、プラグインやテーマ内での使用も可能です。
 ただし、著作権はキャラクター作成者のカネウチカズコさんが保有します。
 
-## GitHub Page
+### GitHub Page
 http://mismith0227.github.io/csswapuu/
 
 ---
