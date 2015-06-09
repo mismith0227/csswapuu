@@ -6,91 +6,42 @@
   <link rel="stylesheet" href="style.min.css">
 </head>
 <body>
-<div class="canvas">
 
-<!-- しっぽ・線/塗り -->
-<div class="line-tail1"></div>
-<div class="line-tail2"></div>
-<div class="tail1"></div>
-<div class="tail2"></div>
-<div class="tail3"></div>
-<div class="tail4"></div>
+<h1>CSS わぷー IE8対応バージョン</h1>
+<p><a href="http://8bitodyssey.com/archives/2461">おでさん作のドット絵わぷー</a>を CSS で作ってみました。</p>
+<p><a href="https://github.com/mismith0227">mismith0227 さん</a>の作った <a href="http://mismith0227.github.io/csswapuu/">CSS わぷー</a>とそして <a href="https://github.com/mismith0227/csswapuu/issues/3">IE8 で見た様子</a>をみて無性につくりたくなりやってみるに至りました。</p>
+  <div id="Wapuu"><table>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr><tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="black"></td><td class="black"></td><td class="brown"></td><td class="yellow"></td><td class="yellow"></td><td class="brown"></td><td class="black"></td><td class="black"></td><td class="black"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr><tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="brown"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="brown"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+      </tr><tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="brown"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="black"></td><td class="yellow"></td><td class="yellow"></td><td class="brown"></td><td class="black"></td><td class="red"></td><td class="orange"></td><td class="orange"></td><td class="orange"></td><td class="orange"></td><td class="orange"></td><td class="red"></td><td class="black"></td>
+      </tr><tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="brown"></td><td class="yellow"></td><td class="black"></td><td class="yellow"></td><td class="black"></td><td class="black"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="brown"></td><td class="black"></td><td class="red"></td><td class="orange"></td><td class="orange"></td><td class="orange"></td><td class="red"></td><td class="black"></td><td></td>
+      </tr><tr>
+        <td></td><td></td><td></td><td></td><td></td>            <td class="black"></td><td class="black"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="yellow"></td><td class="black"></td><td class="black"></td><td class="red"></td><td class="red"></td><td class="black"></td><td></td><td></td>
+      </tr>
+  </div>
 
-<!-- 線 -->
-<div class="line1"></div>
-<div class="line2"></div>
+<script>
+  var wapuu = document.getElementById('Wapuu'),
+  table_tag = wapuu.childNodes[0];
 
-<!-- ボール・wを囲む白線 -->
-<div class="ball"></div>
-<div class="ball2"></div>
-<div class="boll-light"></div>
-<div class="w-circle"></div>
-<div class="w-circle-inner"></div>
+  for(var i=7;i<=32;i++){
+    var tr_tag = document.createElement('tr');
 
-<!-- wの字 -->
-<div class="w-1"></div>
-<div class="w-2"></div>
-<div class="w-3"></div>
-<div class="w-4"></div>
-<div class="w-5"></div>
-<div class="w-6"></div>
-<div class="w-7"></div>
-<div class="w-8"></div>
-<div class="w-9"></div>
-<div class="w-10"></div>
-<div class="w-11"></div>
-<div class="w-12"></div>
-<div class="w-13"></div>
+    for(var j=1;j<=32;j++){
+      var td_tag = document.createElement('td');
+      td_tag.id = 'td-'+i+'-'+j;
+      tr_tag.appendChild(td_tag);
+    }
+    table_tag.appendChild(tr_tag);
+  }
 
-<!-- 顔・線 -->
-<div class="line-face1"></div>
-<div class="line-face2"></div>
-
-<!-- 両手・線 -->
-<div class="line-right-hand"></div>
-<div class="line-left-hand"></div>
-
-<!-- 左脚・線 -->
-<div class="line-left-leg"></div>
-
-<!-- 顔・塗り -->
-<div class="face"></div>
-<div class="neck"></div>
-
-<!-- 胴・塗り -->
-<div class="body"></div>
-<div class="belly"></div>
-
-<!-- 腕・塗り -->
-<div class="left-hand"></div>
-<div class="right-hand"></div>
-<div class="arm"></div>
-
-<!-- 右足・線/塗り -->
-<div class="line-right-foot"></div>
-<div class="right-foot"></div>
-
-<!-- 左脚・塗り -->
-<div class="left-leg"></div>
-<!-- 左足・線/塗り -->
-<div class="line-left-foot"></div>
-<div class="left-foot"></div>
-<div class="thenar"></div>
-
-<!-- 左耳・線/塗り -->
-<div class="line-left-ear"></div>
-<div class="ear-left"></div>
-
-<!-- 右耳・塗り -->
-<div class="ear-right"></div>
-
-<!-- 顔パーツ -->
-<div class="eye-rignt"></div>
-<div class="eye-left"></div>
-<div class="nose"></div>
-<div class="mouth"></div>
-
-</div>
+</script>
 
 </body>
 </html>
