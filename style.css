@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-@media (max-width: 643px) {
-.canvas {
- 	width: 300px;
- 	height: 300px;
-}
-}
-
 .canvas {
 	position: relative;
  	width: 400px;
