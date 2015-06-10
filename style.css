@@ -1478,10 +1478,3 @@
 	background-color: #06709c;
 }
 
-/* sp size */
-@media (max-width: 643px) {
-.canvas {
-	position: relative;
-	width: 200px;
-	height: 400px;
-}
