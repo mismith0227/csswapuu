@@ -1483,5 +1483,10 @@
 .canvas {
 	position: relative;
 	width: 300px;
-	height: 300px;
+	height: 400px;
+	-webkit-transform: scale(0.7);
+	   -moz-transform: scale(0.7);
+	    -ms-transform: scale(0.7);
+	     -o-transform: scale(0.7);
+	        transform: scale(0.7);
 }
