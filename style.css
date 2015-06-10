@@ -1477,9 +1477,3 @@
 .boll-light,.w-circle-inner,.w-2,.w-5,.w-7,.w-9,.w-12 {
 	background-color: #06709c;
 }
-
-/* sp size */
-@media (max-width: 643px) {
-.canvas {
-	position: relative;
-}
