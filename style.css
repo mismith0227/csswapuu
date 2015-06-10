@@ -1481,6 +1481,7 @@
 /* sp size */
 @media (max-width: 643px) {
 .canvas {
+	position: relative;
 	width: 300px;
 	height: 300px;
 }
