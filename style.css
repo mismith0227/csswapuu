@@ -1489,37 +1489,37 @@
 
   @-webkit-keyframes scaleout {
     0% {
-      transform: rotate(-8deg) scaleY(1.0);
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    25% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    25% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    26% { 
-      transform: rotate(-8deg) scaleY(0);
+    26% {
+      -webkit-transform: rotate(-8deg) scaleY(0);
     }
-    27% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    27% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    80% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    80% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    81% { 
-      transform: rotate(-8deg) scaleY(0);
+    81% {
+      -webkit-transform: rotate(-8deg) scaleY(0);
     }
-    82% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    82% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    83% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    83% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
-    84% { 
-      transform: rotate(-8deg) scaleY(0);
+    84% {
+      -webkit-transform: rotate(-8deg) scaleY(0);
     }
-    85% { 
-      transform: rotate(-8deg) scaleY(1.0);
+    85% {
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
     100% {
-      transform: rotate(-8deg) scaleY(1.0);
+      -webkit-transform: rotate(-8deg) scaleY(1.0);
     }
   }
 
@@ -1527,31 +1527,31 @@
     0% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    25% { 
+    25% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    26% { 
+    26% {
       transform: rotate(-8deg) scaleY(0);
     }
-    27% { 
+    27% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    80% { 
+    80% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    81% { 
+    81% {
       transform: rotate(-8deg) scaleY(0);
     }
-    82% { 
+    82% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    83% { 
+    83% {
       transform: rotate(-8deg) scaleY(1.0);
     }
-    84% { 
+    84% {
       transform: rotate(-8deg) scaleY(0);
     }
-    85% { 
+    85% {
       transform: rotate(-8deg) scaleY(1.0);
     }
     100% {
