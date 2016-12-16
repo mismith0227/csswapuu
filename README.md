@@ -6,7 +6,6 @@ WordPress ソフトウェアと同じく [GPL バージョン 2](http://www.gnu.
 
 ### GitHub Page
 http://mismith0227.github.io/csswapuu/
-
 ---
 
 This is a CSS version of Wapuu(わぷー) drawing.
